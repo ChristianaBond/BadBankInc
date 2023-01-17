@@ -21,7 +21,7 @@ function CreateAccount() {
  function validPassword(password) {
    if (password.length < 8) {
      setStatus(
-       `Password must be at least 8 characters long and must include a special character. Please try again.`
+       `Try again.`
      );
      setTimeout(() => setStatus(""), 6000);
      return false;
